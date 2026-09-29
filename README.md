@@ -10,7 +10,7 @@ The program provides three menu-driven modules:
 - **Stock Portfolio and Trading Tracker** - holdings, estimated portfolio value, unrealized and realized profit/loss, trade history, and sector summaries.
 - **Daily Expense and Threshold Tracker** - expense entry and search, monthly thresholds, category summaries, savings calculations, cash-flow summaries, and recurring expenses.
 
-The application uses yfinance for market data and matplotlib for price charts. Portfolio and expense records are kept in memory for the current run. Market data availability depends on the external service.
+The application uses yfinance for market data and matplotlib for price charts. Portfolio holdings include the buying platform, and each sale records its selling platform. Portfolio and expense records are kept in memory for the current run. Market data availability depends on the external service.
 
 ## Team
 
